@@ -8,6 +8,8 @@ class GetCdDataCdInfo : public GetCdDataBase
 public:
     GetCdDataCdInfo();
 
+    bool testCdInterface() { return true ; }
+
     int readData() ;
 
     QString getFullData() ;
